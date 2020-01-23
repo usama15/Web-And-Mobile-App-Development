@@ -1,0 +1,5 @@
+1 - open cmd in folder and type code . to open with vscode.
+2 - type (! + Tab) to auto generate the html code
+3 - h1*3 to generate 3 h1 tags
+4 - Alt+Shift+f to correct the code sequence.
+5 - control + ?  add comment/ uncomment
