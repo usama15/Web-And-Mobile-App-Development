@@ -3,3 +3,4 @@
 3 - h1*3 to generate 3 h1 tags
 4 - Alt+Shift+f to correct the code sequence.
 5 - control + ?  add comment/ uncomment
+6 - lorem+tab
