@@ -5,3 +5,5 @@
 5 - control + ?  add comment/ uncomment
 6 - lorem+tab
  &nbps 
+7- ALT+Shift+Down Arrow
+8
