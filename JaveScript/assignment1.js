@@ -183,12 +183,44 @@
 
 // 14th instuction start
 
-// var colors =['red','green','blue'];
-// document.write(colors,'<br>');
-// var request = prompt('Which color you want to move to first');
-// colors.splice(0,0,request);
-// colors.pop(1);
+var colors = [];
+// var begin_color = prompt("Enter color that you want to store in beginning of array");
+// var end_color = prompt("Enter color that you want to store in end of the array");
+// colors.unshift(begin_color)
+// document.write(colors, "<br>");
+// colors.push(end_color);
+// document.write(colors, "<br>");
+// colors.splice(0, 0, "orange", "purple");
+// document.write(colors, "<br>");
+// colors.shift();
+// document.write(colors, "<br>");
+// colors.pop();
+// document.write(colors, "<br>");
+// var color_index = +prompt('Enter insert Index');
+// var index_color = prompt("Enter insert color");
+// colors.splice(color_index, 0, index_color);
 // document.write(colors);
+// var color_index = +prompt('Enter delete Index');
+// var color_num = +prompt('Enter delete Numbers');
+// colors.splice(color_index, color_num);
+// document.write(colors);
+
+// 2
+
+// var cities = ['New Mexico', 'Washingtop DC', 'New York'];
+// var selected_cities = [];
+// for (var a = 0; a <= 2; a++) {
+
+//     selected_cities.push(cities[a]);
+// }
+// document.write(selected_cities);
+// 3
+
+var top_cities = [
+    ['Pakistan', ['Karachi', 'Hyderabad', 'Pishawar', 'Quetta']],
+    ['United States', ['New York', 'New Jersey', 'Washington DC']],
+    ['India', ['Dehli', 'Mumbai', 'Hyderabad', 'Bhawal nagar']],
+]
 
 // 14th instuction end
 
@@ -309,17 +341,17 @@
 
 // d
 
-for (a = 0; a <= 11; a++) {
-    for (b = 0; b <= a; b++) {
-        document.write('*');
-    }
-    document.write('<br>')
-}
-for (a = 10; a >= 0; a--) {
-    for (b = a; b >= 0; b--) {
-        document.write('*');
-    }
-    document.write('<br>')
-}
+// for (a = 0; a <= 11; a++) {
+//     for (b = 0; b <= a; b++) {
+//         document.write('*');
+//     }
+//     document.write('<br>')
+// }
+// for (a = 10; a >= 0; a--) {
+//     for (b = a; b >= 0; b--) {
+//         document.write('*');
+//     }
+//     document.write('<br>')
+// }
 
 // 2nd challenge end
