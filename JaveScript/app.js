@@ -26,17 +26,20 @@
 //     alert('<b>Khamoooosh</b>')
 // }
 //           Sets of Conditions
-var a = prompt('Enter A')
-var b = prompt('Enter B')
-if (a==='2'){
-    console.log('You are in the condition')
-    if(b === 5){
-        console.log('Your are in the nested condition')
-    }
-    else{
-        console.log('You are in the nested else condition')
-    }
-}
-else{
- console.log('You are in else condition')   
-}
+// var a = prompt('Enter A')
+// var b = prompt('Enter B')
+// if (a==='2'){
+//     console.log('You are in the condition')
+//     if(b === 5){
+//         console.log('Your are in the nested condition')
+//     }
+//     else{
+//         console.log('You are in the nested else condition')
+//     }
+// }
+// else{
+//  console.log('You are in else condition')   
+// }
+var x = 5
+var y = 7
+console.log(x+y)
