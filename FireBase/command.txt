@@ -1,0 +1,7 @@
+Install Node JavaScript
+Install : npm install -g firebase-tools
+Login :   firebase login
+
+In New File:
+
+firebase init

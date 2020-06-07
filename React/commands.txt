@@ -1,0 +1,8 @@
+to install npm (npm install --global)
+npm -v  (ubuntu npx)
+npm create-react-app react-first-app(name of folder)
+cd react-first-app
+npm start
+
+npm install yarn --global
+yarn build

@@ -34,16 +34,13 @@
 
 var val1 = +prompt('Number 1')
 var val2 = +prompt('Number 2')
-var opr  = prompt('Enter Your Operation')
-if(opr == '+'){
-    console.log(val1+val2)
-}
-else if(opr == '-'){
-    console.log([val1-val2])
-}
-else if(opr == '*'){
-    console.log(val1*val2)
-}
-else if(opr == '/'){
-    console.log(val1/val2)
+var opr = prompt('Enter Your Operation')
+if (opr == '+') {
+    alert(val1 + val2)
+} else if (opr == '-') {
+    alert([val1 - val2])
+} else if (opr == '*') {
+    alert(val1 * val2)
+} else if (opr == '/') {
+    alert(val1 / val2)
 }
