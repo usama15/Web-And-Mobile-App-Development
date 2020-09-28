@@ -341,17 +341,17 @@ var top_cities = [
 
 // d
 
-// for (a = 0; a <= 11; a++) {
-//     for (b = 0; b <= a; b++) {
-//         document.write('*');
-//     }
-//     document.write('<br>')
-// }
-// for (a = 10; a >= 0; a--) {
-//     for (b = a; b >= 0; b--) {
-//         document.write('*');
-//     }
-//     document.write('<br>')
-// }
+for (a = 0; a <= 11; a++) {
+    for (b = 0; b <= a; b++) {
+        document.write('*');
+    }
+    document.write('<br>')
+}
+for (a = 10; a >= 0; a--) {
+    for (b = a; b >= 0; b--) {
+        document.write('*');
+    }
+    document.write('<br>')
+}
 
 // 2nd challenge end

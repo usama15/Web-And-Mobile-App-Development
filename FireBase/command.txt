@@ -5,3 +5,4 @@ Login :   firebase login
 In New File:
 
 firebase init
+firebase deploy

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login/ Signup</title>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAmoFuQHacXuACURKn2SXMvv5pVhF1zYGc",
+          authDomain: "test-project-9b397.firebaseapp.com",
+          databaseURL: "https://test-project-9b397.firebaseio.com",
+          projectId: "test-project-9b397",
+          storageBucket: "test-project-9b397.appspot.com",
+          messagingSenderId: "419040444303",
+          appId: "1:419040444303:web:72f97d0abe606f8cecd5fa"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+</head>
+<body>
+    <div class="border">
+        <div class="heading">
+            Sign Up Now
+        </div>
+        <label for="userid">UserId: </label> <input type="text" id="userid" placeholder="Email ID">
+        <label for="userpass">Password: </label> <input type="password" id="userpass" placeholder="Password">
+        <button id="button" onclick="signup()">Signup</button>
+    </div>
+    <div class="border">
+                            <div class="heading">
+                                Login Now
+                            </div>
+        <label for="userid">UserId: </label> <input type="text" id="userid1" placeholder="Email ID">
+        <label for="userpass">Password: </label> <input type="password" id="userpass1" placeholder="Password">
+        <button id="button" onclick="login()">Login</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

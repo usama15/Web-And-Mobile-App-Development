@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    align-items: center;
+}
+.fab {
+    color: white;
+  }
+  :root{
+    --mainColor: #4053ff;
+    --fontcolor: #fff;
+    --blackColor: #000;
+    --lightDark: #222;
+  }
+  .main-color{
+    background-color: var(--mainColor);
+    align-items: center;
+  }
+  .socialmedia-icons{
+      margin-left: 20px;
+      display: inline-block;
+  }
+  .socialmedia-icons i{
+    padding-left: 20px;
+    position: relative;
+  }
+  .set-size button{
+      font-size: 13px;
+      font-weight: bold;
+  }
+  .top-center{
+      display: inline-block;
+      margin:0px auto;
+      text-align: center;
+      padding-top: 10px;
+  }
+  .navbar-flow{
+      left: 500px;
+  }
+.carousel-inner {
+    max-height: 480px;
+}
+.info-panel{
+    width: 100%;
+}
+.info-panel p{
+    display: inline=block;
+    text-align: center;
+    margin: 0 auto;
+}
+.page-color{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: initial;
+    font-size: 16px;
+    padding: 8%;
+    text-decoration: double;
+}
+.bold{
+    font-weight: bold;
+}
+.set-content{
+    text-align: justify !important;
+}
+.setting{
+    display: inline-block;
+    position: relative;
+    /* margin-left: 5%; */
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.setting h4{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.setting-all{
+    width: 100%;
+}
+.text-green{
+    color: rgb(0, 255, 0);
+
+}
+.tile-set{
+    background-color: white;
+    padding:1%;
+    box-shadow: 1px 1px 10px gray;
+    /* margin: 5px; */
+}
+.sets{
+    margin:1px;
+}
+.tile-set img{
+    margin: 5%;
+}
+.tile-set h4{
+    margin: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tile-set:hover{
+    background-color: #97c9ff;
+    padding:1%;
+    box-shadow: 2px 2px 15px gray;
+    /* margin: 1px; */
+    transition: 1s;
+    
+}

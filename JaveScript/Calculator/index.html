@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <input class="Ans screen" id="result" type="text">
+        </div>
+        <div class="numbers">
+            <button class="btns" onclick="getvalue(1)">1</button>
+            <button class="btns" onclick="getvalue(2)">2</button>
+            <button class="btns" onclick="getvalue(3)">3</button>
+            <button class="btns" onclick="getvalue(4)">4</button>
+            <button class="btns" onclick="getvalue(5)">5</button>
+            <button class="btns" onclick="getvalue(6)">6</button>
+            <button class="btns" onclick="getvalue(7)">7</button>
+            <button class="btns" onclick="getvalue(8)">8</button>
+            <button class="btns" onclick="getvalue(9)">9</button>
+        </div>
+        <div class="operation">
+            <button class="clear" onclick="clearme()">C</button>
+            <button class="op1" onclick="getvalue('/')">/</button>
+            <button class="op1" onclick="getvalue('*')">*</button>
+            <button class="op1" onclick="getvalue('-')">-</button>
+            <button class="op1" onclick="getvalue('+')">+</button>
+            <button class="op1 op2" onclick="getvalue('0')">0</button>
+        </div>
+        <button class="equal" onclick="evalue()">CALCULATE</button>
+    </div>
+    
+</body>
+</html>

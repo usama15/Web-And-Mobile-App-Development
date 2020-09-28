@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #message{
+            background-color: black;
+            padding:20px;
+            border-radius: 35px 35px 0px 0px;
+            width: 30%;
+            margin-left: 30%;
+        }
+        #heading{
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            color: white;
+        }
+        #txt{
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            display: inline-block;
+            
+        }
+        #form{
+            margin-top: 10%;
+        }
+        #txts{
+            border-radius: 20px;
+            width: 330px;
+            height: 35px;
+            border: none;
+        }
+        #btn{
+            width: 75px;
+            height: 35px;
+            color: white;
+            border: 1px solid white;
+            background-color: black;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="message">
+        <div id="heading">Message App</div>
+        <div id="txt"></div>
+        <div id="form">
+            <input id='txts' type="text" required/>
+            <button id='btn' onclick="myMessage()">Send</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

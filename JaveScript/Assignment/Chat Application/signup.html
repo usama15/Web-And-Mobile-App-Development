@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBV9hD26xfzTVBjbaPEObwXQfeLIPkz_lE",
+          authDomain: "chatapp-tehseen.firebaseapp.com",
+          databaseURL: "https://chatapp-tehseen.firebaseio.com",
+          projectId: "chatapp-tehseen",
+          storageBucket: "chatapp-tehseen.appspot.com",
+          messagingSenderId: "605585711422",
+          appId: "1:605585711422:web:f5198c279a8c10e613cc6f"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <title>Signup</title>
+</head>
+<body>
+    <div class="body-back">
+    <div class="logo-head"><img class="logo" src="./image/logo.jpg" alt="logo"></div>
+    <div class="body">
+      <div class="signup-body">
+          <div class="sub-signup">
+              <div class="signup-head">Sign Up</div>
+              <hr/>
+            <div class="row"> <div class="label" ><label for="userid">User ID: </label></div> <input type="text" placeholder="User Email" id="userid" required>  </div>
+            <div class="row"> <div class="label" ><label for="userpass">Password: </label></div> <input type="password" placeholder="Password" id="userpass" required>  </div>
+            <button onclick="signup()" class="button">Signup</button> 
+            <div id="error"></div>
+            <div class="suggestion">Already signedIn? <a class="anchor" href='./login.html'>Login Now</a> </div> 
+            <div class="facebook"><div class="sub-facebook">Signup with </div> <img class="facebook-logo" src="./image/facebook.svg" alt=""></div>
+            <div class="google"><div class="sub-google">Signup with </div> <img class="google-logo" src="./image/google-icon.svg" alt=""></div>
+        </div>
+      </div>
+    </div>
+</div>
+<script src="./script/script.js"></script>
+</body>
+</html>

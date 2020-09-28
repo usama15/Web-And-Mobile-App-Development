@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+.calculator{
+    margin-left: 20%;
+    margin-top: 6%;
+    width: 60%;
+    border: 0.5px solid black;
+    padding: 2%;
+}
+.screen{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(228, 228, 228);
+    font-size: 70px;
+}
+.Ans{
+    float: right;
+    padding-right: 2%;
+}
+.numbers{
+    width: 60%;
+    display: inline-block;
+}
+.btns{
+    width: 25%;
+    height: 100px;
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.operation{
+    display: inline-block;
+    position: absolute;
+    width: 27%;
+    margin-left: -40px;
+    height: 500px;
+    margin-top: 2.6%;
+}
+.clear{
+    width: 100%;
+    height: 100px;
+}
+.op1{
+    width: 30%;
+    height: 100px;
+    margin-top: 8%;
+    margin-right: 2%;
+}
+.op2{
+    width: 63%;
+}
+.equal{
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 2%;
+}

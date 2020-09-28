@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-database.js"></script>
+    <script>
+        
+        var firebaseConfig = {
+          apiKey: "AIzaSyAmoFuQHacXuACURKn2SXMvv5pVhF1zYGc",
+          authDomain: "test-project-9b397.firebaseapp.com",
+          databaseURL: "https://test-project-9b397.firebaseio.com",
+          projectId: "test-project-9b397",
+          storageBucket: "test-project-9b397.appspot.com",
+          messagingSenderId: "419040444303",
+          appId: "1:419040444303:web:771a6d017e546664ecd5fa"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <title>Firebase Database</title>
+</head>
+<body>
+    <input type="text" placeholder="Name" id="txtInput1">
+    <input type="text" placeholder="Age" id="txtInput2">
+    <button onclick="dataSubmit()">Button</button>
+    <button onclick="getFirebaseData()">Get Data</button>
+    <button onclick="removeFirebaseData()">Remove Data</button>
+    <button onclick="editFirebaseData()">Edit Data</button>
+    <script src="./script.js"></script>
+</body>
+</html>

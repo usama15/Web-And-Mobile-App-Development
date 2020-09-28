@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (min-width: 600px) {
+    .header-logo{
+        width: 300%;
+        display: inline-block;
+    }
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+.body-back{
+    background-color:  rgb(241, 227, 253);
+    height: 670px;
+}
+.body{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1%;
+    
+}
+.logo-head{
+    width: 100%;
+    margin-top: 1%;
+    text-align: center;
+    display: inline-block;
+}
+.logo{
+    width: 10%;
+    border-radius: 25px;
+}
+.signup-body{
+    width: 60%;
+    padding-bottom: 2%;
+    background-color: rgb(220, 182, 255);
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgb(152, 95, 206);
+    transition: 0.3s;
+}
+.signup-body:hover{
+    box-shadow: 0px 0px 20px rgb(152, 95, 206);
+    transition: 0.5s;
+}
+.sub-signup{
+    margin-top: 3%;
+    width: 60%;
+    padding-bottom: 5%;
+    background-color: rgb(245, 236, 253);
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.signup-head{
+    font-size: 30px;
+    width: 100%;
+    color:  rgb(220, 182, 255);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#userid,#userpass{
+    margin-top: 5%;
+    width: 70%;
+    height: 40px;
+    padding-left: 2%;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.label{
+    /* margin-right: 20px; */
+    display: inline-block;
+    width: 20%;
+}
+.row{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(220, 182, 255) ;
+    color: white;
+    border: none;
+    margin-top: 10%;
+}
+.suggestion{
+    font-size: 13px;
+    margin-top: 1%;
+    color: rgb(174, 114, 231) ;
+}
+.anchor{
+    margin-left: 2%;
+}
+/* Login Styles */
+.body-back-lt{
+    background-color: rgb(237, 255, 241);
+}
+.lt-green{
+    background-color: rgb(210, 237, 216);
+    box-shadow: 0px 0px 5px rgb(85, 184, 106);
+}
+.lt-green:hover{
+    box-shadow: 0px 0px 20px rgb(85, 184, 106);
+}
+.set-lt-green{
+    background-color: rgb(237, 255, 241);
+}
+.lt-head{
+    color: rgb(85, 184, 106);
+}
+.lt-btn{
+    background-color: rgb(85, 184, 106);
+}
+#error{
+    margin-top: 2%;
+    color: red;
+    font-size: 14px;
+    display: block;
+}
+.facebook{
+    margin-top: 10%;
+    width: 49%;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid rgb(58, 38, 128);
+    background-color: rgb(58, 38, 128);
+    position: relative;
+    padding-bottom: 1.5%;
+    transition: 0.2s;
+    border-radius: 10px 0px 0px 10px ;
+}
+.sub-facebook{
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    color: white;
+    font-size: 18px;
+    padding-bottom: 5%;
+    display: inline-block;
+    transition: 0.2s;
+}
+.sub-facebook:hover{
+    left: 50px;
+    transition: 0.3s;
+
+}
+.facebook-logo{
+    position: absolute;
+    float: right;
+    top: 5px;
+    left: 200px;
+    width: 15%;
+}
+.google{
+    margin-top: 10%;
+    width: 49%;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid rgb(240, 54, 54);
+    background-color: white;
+    position: relative;
+    padding-bottom: 1.5%;
+    transition: 0.2s;
+    border-radius: 0px 10px 10px 0px ;
+}
+.sub-google{
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    color: rgb(240, 54, 54);
+    font-size: 18px;
+    padding-bottom: 5%;
+    display: inline-block;
+    transition: 0.2s;
+}
+.sub-google:hover{
+    left: 50px;
+    transition: 0.3s;
+
+}
+.google-logo{
+    position: absolute;
+    float: right;
+    top: 5px;
+    left: 200px;
+    width: 15%;
+}
+/* Index Style */
+.header-logo{
+    width: 30%;
+    display: inline-block;
+}
+.usersid{
+    margin-left: 5%;
+    display: inline-block;
+    width: 100%;
+}
+.profile-img{
+    width: 40px;
+    margin-top: 1%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.set-user{
+    width: 100%;
+    display: inline-block;
+}
+.set-img{
+    width: 40%;
+}
+.contact-top{
+    margin-top: 1%;
+    width: 95%;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+.contact-photo{
+    width: 50px;
+    border-radius: 80px;
+    display: inline-block;
+}
+.contact-text{
+    font-size: 12px;
+    display: inline-block;
+
+}
+.set-contact{
+    width: 100px;
+}
+.message-border{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-bottom: 3%;
+    box-shadow: 0px 3px 10px gray;
+    margin-top: -5%;
+}
+.message-head{
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: rgb(49, 158, 230);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+}
+#message-msg{
+    width: 100%;
+    text-align: none;
+    height: 350px;
+    border: 1px solid black;
+    overflow: scroll;
+    padding: 1%;
+}
+.message-footer{
+    width: 100%;
+}
+#message-input{
+    width: 80%;
+    height: 50px;
+    padding-left: 2%;
+    box-shadow: 0px 0px 5px gray;
+    border: none;
+}
+#message-btn{
+    width: 19%;
+    background-color:  rgb(49, 158, 230);
+    height: 50px;
+    border: none;
+}
+.message1{
+    text-align: left !important;
+    display: inline-block;
+    padding:1%;
+    color: white;
+    background-color:  rgb(49, 158, 230);
+    border-radius: 20px;
+}
