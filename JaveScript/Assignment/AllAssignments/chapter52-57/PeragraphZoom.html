@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="border">
+            <button onclick="zoomIn()">Zoom In</button>
+            <button id="btn2" onclick="zoomOut()">Zoom Out</button>
+        </div>
+        <p id="setFontSize">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, vel. Expedita quas sed dolor ea iste voluptatibus unde. Quaerat sunt alias corrupti ipsam fugit quae non numquam velit ut et.</p>
+    </div>
+    <script>
+        function zoomIn(){
+            var p = document.getElementById('setFontSize');
+            var s =parseInt(p.style.fontSize.slice(0,p.style.fontSize.length-2))
+            p.style.fontSize = "10px"
+            var total = s+10;
+            p.style.fontSize = `${total}px`
+        }
+        function zoomOut(){
+            var p = document.getElementById('setFontSize');
+            var s =parseInt(p.style.fontSize.slice(0,p.style.fontSize.length-2))
+            // p.style.fontSize = "10px"
+            var total = s-10;
+            p.style.fontSize = `${total}px`
+        }
+    </script>
+</body>
+</html>

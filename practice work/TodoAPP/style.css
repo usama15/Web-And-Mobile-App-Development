@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-image: linear-gradient(90deg, red,blue);
+    border-radius: 50px; */
+}
+.body{
+    background-image: linear-gradient(to bottom right, rgb(0, 204, 255), rgb(39, 15, 126));
+    height: 630px;
+    width: 100%;
+    text-align: center;
+    overflow: scroll;
+}
+.subBody{
+    width: 100%;
+    background-color: rgb(17, 14, 56);
+    padding-bottom: 1%;
+    box-shadow: 0px 0px 5px rgb(17, 14, 56);
+}
+#inputTextField{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 1%;
+    margin-top: 2%;
+    padding: 0.5%;
+    font-size: 100%;
+}
+#submit{
+    border: none;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 15%;
+    height: 40px;
+    font-size: 80%;
+    color: gray;
+}
+.setStyle{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(17, 14, 56);
+    padding: 1%;
+    font-size: 18px;
+    list-style-type: none;
+    margin-left: 10%;
+    margin-top: 0.5%;
+    transition: 0.2s;
+}
+.btnEdit{
+    width: 7%;
+    border: none;
+    padding: 1.5%;
+    font-size: 18px;
+    background-color: rgb(43, 226, 104);
+    margin-left: 10%;
+    color: white;
+}
+.btnDdit{
+    color: white;
+    width: 7%;
+    border: none;
+    padding: 1.5%;
+    font-size: 18px;
+    background-color: rgb(237, 91, 91);
+    margin-left: 1%;
+}
+p{
+    display: inline-block;
+    width: 68%;
+    text-align: left;
+    background-color: rgba(131, 174, 255, 0.487);
+    border-radius: 20px;
+    padding: 1.5%;
+    color: white;
+}
+.setStyle:hover{
+    box-shadow: 0px 0px 7px rgb(17, 14, 56);
+    transition: 0.2s;    
+}

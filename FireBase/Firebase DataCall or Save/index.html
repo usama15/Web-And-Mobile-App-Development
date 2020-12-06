@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="javascript:void(0)" onsubmit="submitData()">
+        <input type="text" id="id" placeholder="Id">
+        <input type="text" id="age" placeholder="Age">
+        <input type="text" id="name" placeholder="Name">
+        <input type="submit">
+    </form>
+    <ul id="myList">
+
+    </ul>
+
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyC3w3s9eJnij73xyiCnlxYi0n60VMGQINI",
+    authDomain: "shopnow-be76d.firebaseapp.com",
+    databaseURL: "https://shopnow-be76d.firebaseio.com",
+    projectId: "shopnow-be76d",
+    storageBucket: "shopnow-be76d.appspot.com",
+    messagingSenderId: "531729790980",
+    appId: "1:531729790980:web:cb1025e768ec5b5ce15d51",
+    measurementId: "G-YZ4CGWGY0T"
+  };
+  firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();
+</script>
+    <script src="./script.js"></script>
+</body>
+</html>

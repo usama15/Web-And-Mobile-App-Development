@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img class="subImg" onclick="setImage('1.jpg')" id="img1" src="./images/others/1.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('2.jpg')" id="img2" src="./images/others/2.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('3.jpg')" id="img3" src="./images/others/3.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('4.png')" id="img4" src="./images/others/4.png" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('5.jpg')" id="img5" src="./images/others/5.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('6.jpg')" id="img6" src="./images/others/6.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('7.png')" id="img7" src="./images/others/7.png" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('8.jpg')" id="img8" src="./images/others/8.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('9.jpg')" id="img9" src="./images/others/9.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('10.jpg')" id="img10" src="./images/others/10.jpg" width="100" height="65" alt="">
+    </div>
+    <div id="MainPage"></div>
+    
+
+    <script>
+        function setImage(image){
+            console.log(image)
+            var getMainImage = document.getElementById('MainPage')
+            getMainImage.src='./images/others/'+image;
+            getMainImage.innerHTML = `
+            <div class="secondPage">
+        <img class="mainImg" id="mainImg" src="./images/others/${image}" alt="">
+        <div class="container">
+        <img class="subImg" onclick="setImage('1.jpg')" id="img1" src="./images/others/1.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('2.jpg')" id="img2" src="./images/others/2.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('3.jpg')" id="img3" src="./images/others/3.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('4.png')" id="img4" src="./images/others/4.png" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('5.jpg')" id="img5" src="./images/others/5.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('6.jpg')" id="img6" src="./images/others/6.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('7.png')" id="img7" src="./images/others/7.png" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('8.jpg')" id="img8" src="./images/others/8.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('9.jpg')" id="img9" src="./images/others/9.jpg" width="100" height="65" alt="">
+        <img class="subImg" onclick="setImage('10.jpg')" id="img10" src="./images/others/10.jpg" width="100" height="65" alt="">
+    </div>
+    </div>
+
+            `;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="javascript:void(0)" onsubmit=emailAuth()>
+        <input id="email" type="text" placeholder="Email">
+        <input id="password" type="password" placeholder="Type Password">
+        <button type="submit">Submit</button>
+    </form>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAmoFuQHacXuACURKn2SXMvv5pVhF1zYGc",
+            authDomain: "test-project-9b397.firebaseapp.com",
+            databaseURL: "https://test-project-9b397.firebaseio.com",
+            projectId: "test-project-9b397",
+            storageBucket: "test-project-9b397.appspot.com",
+            messagingSenderId: "419040444303",
+            appId: "1:419040444303:web:72f97d0abe606f8cecd5fa"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

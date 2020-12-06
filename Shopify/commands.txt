@@ -1,0 +1,10 @@
+theme watch
+Predefined Theme
+website url: https://shopify.github.io/slate/docs/how-to-create-your-own-starter-theme
+yarn create slate-theme my-new-starter-theme Shopify/starter-theme
+
+Install Laravel Mix
+website url: https://laravel-mix.com/docs/5.0/installation
+install:  npm install --save-dev webpack-cli
+npm install vue-template-compiler --save-dev
+npm install sass-loader@8.* sass resolve-url-loader@3.1.0 --save-dev --production=false

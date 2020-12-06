@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <title>MY Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="subContainer1"><p id="subScreen"></p></div>
+        <div class="subContainer1"><p class="p" id="Screen">00</p></div>
+        <div class="subContainer2"></div>
+        
+    </div>
+    <div class="Black-btn">
+        <button class="setBtn Sequentialbtn" onclick="reset()">C</button>
+        <button class="setBtn Sequentialbtn" disabled>^2</button>
+        <button class="setBtn Sequentialbtn" onclick="sendValue('%')">%</button>
+        <button class="setBtn Sequentialbtn" disabled><i class="fas fa-trademark"></i></button>
+        <button class="setBtn" onclick="sendValue(7)">7</button>
+        <button class="setBtn" onclick="sendValue(8)">8</button>
+        <button class="setBtn" onclick="sendValue(9)">9</button>
+        <button class="setBtn Operatiobtn" onclick="sendValue('/')">/</button>
+        <button class="setBtn" onclick="sendValue(4)">4</button>
+        <button class="setBtn" onclick="sendValue(5)">5</button>
+        <button class="setBtn" onclick="sendValue(6)">6</button>
+        <button class="setBtn Operatiobtn" onclick="sendValue('*')">x</button>
+        <button class="setBtn" onclick="sendValue(1)">1</button>
+        <button class="setBtn" onclick="sendValue(2)">2</button>
+        <button class="setBtn" onclick="sendValue(3)">3</button>
+        <button class="setBtn Operatiobtn" onclick="sendValue('-')">-</button>
+        <button class="setBtn" onclick="sendValue(0)">0</button>
+        <button class="setBtn" onclick="reset()">00</button>
+        <button class="setBtn" onclick="sendValue('.')">.</button>
+        <button class="setBtn Operatiobtn" onclick="sendValue('+')">+</button>
+    </div>
+    <button class="btn" onclick="Calculate()">=</button>
+    <script src="./script.js"></script>
+</body>
+</html>

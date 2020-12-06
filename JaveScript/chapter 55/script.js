@@ -35,4 +35,5 @@ function reset(){
     set_msec.innerHTML= msec;
     set_min.innerHTML= sec;
     set_sec.innerHTML= min;
+    console.log('sssssss')
 }

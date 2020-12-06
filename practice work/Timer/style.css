@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: black;
+    background-color: rgb(169, 197, 235);
 }
 #container{
     width: 100%;
@@ -11,14 +11,14 @@ body{
     display: inline-block;
 }
 .timer-detail{
-    width: 20%;
+    transition: 0.3s;
     text-align: center;
     display: inline-block;
-    height: 50px;
-    font-size: 45px;
+    font-size: 250px;
     padding: 5px;
-    margin-top: 10%;
-    background-color: white;
+    margin-top: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
 
 }
 .btnBox{
@@ -30,8 +30,29 @@ body{
     width: 10%;
     height: 50px;
     color: white;
+    border: none;
     box-shadow: 0px 0px 5px white;
     font-size: 30px;
     margin-top: 5%;
-    background-color: black;
+    background-color:  rgb(103, 152, 221);
+    transition: 0.3s;
+    border-radius: 10px;
 }
+.setBtn:hover{
+    width: 10.5%;
+    height: 52px;
+    transition: 0.3s;
+    background-color: rgb(103, 152, 221);
+    box-shadow: 0px 0px 15px white;
+    margin-top: 5px;
+    }
+.changeColor{
+    transition: 0.3s;
+    text-align: center;
+    display: inline-block;
+    font-size: 280px;
+    padding: 5px;
+    margin-top: 3%;
+    background-color: rgb(103, 152, 221);
+    border-radius: 25px;
+    

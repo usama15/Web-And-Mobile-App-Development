@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="subContainer">ffffff</div>
+    </div>
+
+    <script>
+        var subContainer =document.getElementById('subContainer');
+        function Guests(id, firstName, phone, age, relation, kids, status){
+            this.id = id
+            this.firstName = firstName
+            this.phone = phone
+            this.age = age
+            this.relation = relation
+            this.kids = kids
+            this.status = status
+        }
+        var phone = ['252-421-8421', '03334785124', '03412074521', '03337766009']
+        var guestname = ['Adnan','Salman',  'Sehzad', 'Ibtehaj']
+        var age = ['18', '28', '31', '23']
+        var guestrelation = ['Longatiya Yaar', 'School Friend', 'Brother', 'Longatiya Yaar']
+        var kids = ['3', 'Weela hai', '1', 'Weela Hai']
+        var status = ['Choor', 'Acha Banda', 'Weela', 'Lotera']
+        for(a=0; a<= age.length; a++){
+            var guest = new Guests(a, guestname[a], phone[a], age[a], guestrelation[a], kids[a], status[a])
+            console.log(guest)
+            // console.log(relation[0])
+            // console.log(guestrelation[0])
+        }
+    </script>
+</body>
+</html>
