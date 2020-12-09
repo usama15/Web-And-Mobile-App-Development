@@ -88,7 +88,7 @@ class Chat extends React.Component{
                             this.state.sendTo = data
                           return <a onClick={() => this.setToChat(data)}> <div className="friendBar" key={index}>
                             <img className="friendPic" src={data.profile} alt="img" />
-                            <span className="friendProfile">{data.name}<br/> </span>
+                            <span className="friendProfile profile">{data.name}<br/> </span>
                         </div></a>
                     
                         }
@@ -96,6 +96,8 @@ class Chat extends React.Component{
                     
                 </div>
                 {Object.keys(this.state.chat_user).length ?
+                
+                <div className="Box">
                 <div className="chatBox">
                     <div className="chatHeader">
                     <img className="friendPic" src={profile} alt="img" />
@@ -106,17 +108,18 @@ class Chat extends React.Component{
                             
                         <div>
                             {this.state.chats.map((v,i)=>{
-                                console.log("New data here ==>>",this.state.sendTo);
                                 if(v.uid != user.uid){
+                                    console.log("New data here ==>>",v.message);
                                     return <div className="messages" key={i}>
-                                    <img className="friendPic mesgPic" src={this.state.sendTo.profile} alt="img" />
-                                    <span className="profileName mesg">{v.message}<br/> </span>
+                                    <img className="friendPic" src={this.state.sendTo.profile} alt="img" />
+                                    <span className="profileName">{v.message}<br/> </span>
                                 </div>
                                 }
                                 else{
+                                    console.log("New data here ==>>",v.message);
                                     return <div className="messageRecieve" key={i}>
-                                    <span className="profileName mesg Picres">{v.message}<br/> </span>
                                     <img className="friendPic mesgPic Picres" src={user.profile} alt="img" />
+                                    <span className="profileName mesg Picres">{v.message}<br/> </span>
                                 </div>
                                 }
                             })}
@@ -127,6 +130,7 @@ class Chat extends React.Component{
                         <input value={this.state.message} onChange={(e)=> this.setState({message : e.target.value})} className="msgBox" type="text" placeholder="Send Message"/>
                         <button className="messageBtn" onClick={() => this.sendMesage()}><i class="fas fa-paper-plane"></i></button>
                     </div>
+                </div>
                 </div>
                     
                     :

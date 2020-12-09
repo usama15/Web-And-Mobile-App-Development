@@ -12,19 +12,20 @@
     display: inline-block;
 }
 .profileName{
-    margin-left:3%;
     color: rgb(255, 255, 255);
     font-family: 'Cairo', sans-serif;
     display: inline-block;
     position: absolute;
     padding-top:0.8%;
+    font-size: 100%;
+    width: 80%;
 }
 .friendProfile{
     margin-left:5%;
     color: rgb(255, 255, 255);
     font-family: 'Cairo', sans-serif;
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     padding-top:0.8%;
 }
 .headerDots{
@@ -39,15 +40,20 @@
     /* display: flex; */
     box-shadow: 0px 0px 5px gray;
     display: inline-block;
-    width: 30%;
+    width: 100%;
     overflow: auto;
 }
 .chatBox{
     color: gray;
     display: inline-block;
-    width: 65%;
+    width: 80%;
     box-shadow: 1px 1px 5px gray;
     margin-left: 2%;
+}
+.Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menuTitle{
     text-align:center;
@@ -57,10 +63,13 @@
     border-bottom: 0.5px solid gray;
 }
 .friendBar{
-    display: flex;
+    width: 15%;
     padding:3%;
     transition: 0.2s;
     background-color:rgb(43, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .friendBar:hover{
     box-shadow: 1px 1px 10px rgb(43, 43, 43);
@@ -110,7 +119,6 @@
     font-size: 120%;
 }
 .messages{
-    
     float: left;
     width: 70%;
     margin-left: 5%;
