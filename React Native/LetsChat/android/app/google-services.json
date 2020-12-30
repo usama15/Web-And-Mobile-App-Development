@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "219422768555",
+    "firebase_url": "https://letschatap-default-rtdb.firebaseio.com",
+    "project_id": "letschatap",
+    "storage_bucket": "letschatap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219422768555:android:9c884eec311ecff4f4e6ee",
+        "android_client_info": {
+          "package_name": "com.letschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219422768555-vf0c9c9friqd2e13jgjlkjpkcr5uqdvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_aAkuTrq2PBc8PLAknInt0_hUrskgmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219422768555-vf0c9c9friqd2e13jgjlkjpkcr5uqdvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
