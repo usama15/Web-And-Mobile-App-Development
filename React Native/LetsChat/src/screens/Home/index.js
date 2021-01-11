@@ -7,9 +7,15 @@ import Chats from '../../Components/Chats';
 
 const Home = (props) => {
   // const { email, name, picURL, uid} = props.route.params;
-  // console.log('EEEEEMMMAIL ====> ',email)
-  const name  = 'Mohammed Tehseen Jawed';
-    const email = 'tehseenjawed1@gmail.com';
+  // const name  = 'Mohammed Tehseen Jawed';
+    // const email = 'tehseenjawed1@gmail.com';
+    const {name,email, picURL, uid} = props.route.params
+    const userData = {
+      name,
+      email,
+      picURL, 
+      uid
+    }
     const profile = 'https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3415773818535229&height=100&width=100&ext=1611339218&hash=AeSeGb14oMMm3fPos-k';
   let [newScreens,setNewScreens] = useState(0)
   let Screens = ()=>{
@@ -25,7 +31,7 @@ const Home = (props) => {
     else{
       
       // return <NewPost payload={name, email, profile}/>
-      return <Feeds/>
+      return <Feeds userData={userData}/>
     }
   }
   return (

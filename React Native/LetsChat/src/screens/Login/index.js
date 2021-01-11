@@ -30,7 +30,6 @@ function App(props){
   // Sign-in the user with the credential
   auth().signInWithCredential(facebookCredential)
   .then((user)=>{
-    console.log('User ===> ',user.additionalUserInfo.profile)
     const facebookData = user.additionalUserInfo.profile;
     const userData = {
       email:facebookData.email,

@@ -19,6 +19,7 @@ const NewPost = (props) => {
         id,
         post:textArea,
         post_url:url,
+        like:[0],
         post_date: postDate.getUTCFullYear()+"/" + postDate.getUTCMonth() + "/" + postDate.getUTCDate()  ,
       }
       // console.log()
